@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppliancePage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="@string/Control_Appliances" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:onClick="SecuritySystemButtonClick"
+        android:text="@string/Button_Secutity" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:onClick="ThermostatButtonClick"
+        android:text="@string/Button_thermostat" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:onClick="LightingButtonClick"
+        android:text="@string/Lighting_Control" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:onClick="LocksButtonClick"
+        android:text="@string/Locks_Button" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:onClick="MotionDetectorButtonClick"
+        android:text="@string/Button_Motion" />
+
+</RelativeLayout>

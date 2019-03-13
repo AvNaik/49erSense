@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:text="Welcome," />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:onClick="onAppliancesButtonClick"
+        android:text="@string/Appliance_Button" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:onClick="onoStatusButtonClick"
+        android:text="@string/Button_Home_Staus" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:onClick="onWeatherButtonClick"
+        android:text="@string/Wather_button" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:onClick="onSecuritySystemButtonClick"
+        android:text="@string/Button_Secutity" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="207dp"
+        android:onClick="onPowerConsumptionButtonClick"
+        android:text="@string/Power_Consumption1" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:onClick="onVideoFeedButtonClick"
+        android:text="@string/Video_Feed_button" />
+
+</RelativeLayout>

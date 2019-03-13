@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectApp</string>
+    <string name="Button_Register">Register</string>
+    <string name="button_login">Login</string>
+    <string name="Regis_button">Register</string>
+
+    <string-array name="Users_array">
+        <item>Type of User</item>
+        <item>Consumer</item>
+        <item>Utility Provider</item>
+        <item>Power Generator</item>
+    </string-array>
+    <string name="Utility_Welcome">Welcome,</string>
+    <string name="Generator_welcome">Welcome,</string>
+    <string name="Generaotr_VeiwGenes">View Generators</string>
+    <string name="Generator_manageGens">Manage Generators</string>
+    <string name="Generrators">Market</string>
+    <string name="View_gens_welcome">View Generators</string>
+    <string name="generataors_manage_gens">Manage Generators</string>
+
+    <string-array name="Genset_Array">
+        <item>Toggle Generator </item>
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="Genset_NameArray">
+        <item>Select Generator </item>
+        <item>Generator 1</item>
+        <item>Generator 2</item>
+        <item>Generator 3</item>
+    </string-array>
+
+    <string name="manage_genset1">Apply Changes</string>
+    <string name="View_Status">Select Generator to View Status</string>
+
+    <string-array name="Genset_StatusArray">
+        <item>Select Generator </item>
+        <item>Generator 1</item>
+        <item>Generator 2</item>
+        <item>Generator 3</item>
+    </string-array>
+    <string name="GenSet_Status">View Status</string>
+    <string name="Wather_button">Weather</string>
+    <string name="Weather_Report">Weather Report</string>
+    <string name="Appliance_Button">Appliances</string>
+    <string name="Locks_Button">Locks</string>
+    <string name="Control_Appliances">Appliance Control</string>
+    <string name="Control_Thermostat">Thermostat</string>
+    <string name="Lighting_Control">Lighting</string>
+
+    <string-array name="Thermostat_Floor">
+        <item>Select Floor </item>
+        <item> Main Floor </item>
+        <item> Upstairs </item>
+    </string-array>
+
+    <string-array name="Thermostat_Mode">
+        <item>Select Mode </item>
+        <item> OFF </item>
+        <item> AUTO </item>
+        <item> HEAT </item>
+        <item> COOL </item>
+    </string-array>
+
+    <string-array name="Fan_Status">
+        <item>Select Fan Mode </item>
+        <item> OFF </item>
+        <item> AUTO </item>
+        <item> ON </item>
+    </string-array>
+    <string name="Set_button1">SET</string>
+    <string name="Button_thermostat">Thermostat</string>
+    <string name="Button_Secutity">Security System</string>
+    <string name="Button_Locks">Locks</string>
+    <string name="Button_Lighting">Lighting</string>
+    <string name="Button_Motion">Motion Detector</string>
+    <string name="Security_System">Security System</string>
+
+    <string-array name="Security_System">
+        <item>Select Mode </item>
+        <item> DISARMED </item>
+        <item> ARMED AWAY </item>
+        <item> ARMED STAY </item>
+    </string-array>
+    <string name="LightingControl">Lighting Control</string>
+
+    <string-array name="Lighting_Floor">
+        <item>Select Floor </item>
+        <item> Main Floor </item>
+        <item> Upstairs </item>
+    </string-array>
+
+    <string-array name="Location">
+        <item>Select Location </item>
+        <item> LIVING ROOM </item>
+        <item> KITCHEN </item>
+        <item> BEDROOM </item>
+        <item> BATHROOM </item>
+    </string-array>
+
+    <string-array name="Intensity">
+        <item>Set Light Intensity </item>
+        <item> OFF </item>
+        <item> DIM </item>
+        <item> NORMAL </item>
+        <item>  BRIGHT </item>
+        <item> VERY BRIGHT </item>
+    </string-array>
+
+    <string name="Door_Locks">Locks</string>
+    <string-array name="Lock_Location">
+        <item>Select Door </item>
+        <item> FRONT DOOR </item>
+        <item> REAR DOOR </item>
+        <item> 1 CAR GARAGE DOOR </item>
+        <item> 2 CAR GARAGE DOOR </item>
+    </string-array>
+
+    <string-array name="Lock_Status">
+        <item>Select Activity </item>
+        <item> LOCK </item>
+        <item> UNLOCK </item>
+    </string-array>
+
+    <string name="Motion_Detector">Motion Detector</string>
+    <string-array name="MotionDetector_Floor">
+        <item>Select Floor </item>
+        <item> Main Floor </item>
+        <item> Upstairs </item>
+    </string-array>
+
+    <string-array name="MotionDetector_Status">
+        <item>Select Action </item>
+        <item> ACTIVE </item>
+        <item> INACTIVE </item>
+    </string-array>
+    <string name="Button_Home_Staus">Status</string>
+    <string name="Home_Status">Home Status</string>
+
+    <string-array name="Appliance_array">
+        <item>Select to view Status </item>
+        <item> SECURITY SYSTEM </item>
+        <item> THERMOSTAT </item>
+        <item> LIGHTING </item>
+        <item> LOCKS </item>
+        <item> MOTION DETECTOR </item>
+    </string-array>
+    <string name="Button_Get_Status">Get Status</string>
+
+    <string-array name="Floor_array">
+        <item>Select Floor </item>
+        <item> Main Floor </item>
+        <item> Upstairs </item>
+    </string-array>
+
+    <string-array name="Location_array">
+        <item>Select Room </item>
+        <item> LIVING ROOM </item>
+        <item> KITCHEN </item>
+        <item> BEDROOM </item>
+        <item> BATHROOM </item>
+    </string-array>
+
+    <string-array name="Location_array1">
+        <item>Select Room </item>
+        <item> BEDROOM </item>
+        <item> BATHROOM </item>
+    </string-array>
+
+    <string-array name="Door_array">
+        <item>Select DOOR </item>
+        <item> FRONT DOOR </item>
+        <item> REAR DOOR </item>
+        <item> 1 CAR GARAGE DOOR </item>
+        <item> 2 Car GARAGE DOOR </item>
+    </string-array>
+    <string name="power_consumption">Power Consumption</string>
+    <string name="Power_Consumption1">Power Consumption</string>
+    <string name="Video_FeedText">Video Feed</string>
+    <string name="Video_Feed_button">Video Feed</string>
+
+
+</resources>
